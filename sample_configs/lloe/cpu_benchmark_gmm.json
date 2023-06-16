@@ -1,0 +1,27 @@
+{
+  "dataset_selected": "gmm",
+  "algorithm": "lloe",
+  "error_change_threshold": 0.005,
+  "optimizer": "adam",
+  "nb_epochs": 1000,
+  "n_test_triplets": 10000,
+  "gpu_id": 0,
+  "log": {
+    "path":"logs/lloe/cpu_benchmark"
+  },
+   "optimizer_params": {
+    "phase1_learning_rate": 1,
+    "phase2_learning_rate": 0.5 ,
+    "num_landmarks": 0.05,
+    "subset_size": 50,
+    "target_loss": 0.1
+  },
+  "tradeoff_set": {
+    "number_of_points": [128, 256, 512, 1024, 2048, 4096],
+    "input_dimension": [2],
+    "output_dimension": [2],
+    "batch_size": [1000000],
+    "learning_rate": [1],
+    "triplets_multiplier": [2]
+  }
+}

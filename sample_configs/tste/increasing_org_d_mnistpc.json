@@ -1,0 +1,21 @@
+{
+  "dataset_selected": "mnist_pc",
+  "algorithm": "tste",
+  "error_change_threshold": 0.005,
+  "optimizer": "adam",
+  "nb_epochs": 500,
+  "n_test_triplets": 10000,
+  "gpu_id": 0,
+  "log": {
+    "path":"logs/tste/increasing_org_d"
+  },
+  "tradeoff_set": {
+    "number_of_points": [5000],
+    "input_dimension": [2, 5, 20, 35, 50],
+    "output_dimension": [2, 5, 20, 35, 50],
+    "input_equals_output": true,
+    "batch_size": [1000000],
+    "learning_rate": [1],
+    "triplets_multiplier": [2]
+  }
+}

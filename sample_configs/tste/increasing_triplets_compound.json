@@ -1,0 +1,20 @@
+{
+  "dataset_selected": "compound",
+  "algorithm": "tste",
+  "error_change_threshold": -1,
+  "optimizer": "adam",
+  "nb_epochs": 500,
+  "n_test_triplets": 10000,
+  "gpu_id": 0,
+  "log": {
+    "path":"logs/tste/increasing_triplets"
+  },
+  "tradeoff_set": {
+    "number_of_points": [-1],
+    "input_dimension": [-1],
+    "output_dimension": [2],
+    "batch_size": [1000000],
+    "learning_rate": [1],
+    "triplets_multiplier": [0.01, 0.05, 0.1, 0.5, 1, 2, 4, 8]
+  }
+}

@@ -1,0 +1,51 @@
+{
+    "algorithm": "lloe_phase2",
+    "dataset_selected": "aggregation",
+    "error_change_threshold": -1,
+    "gpu_id": 0,
+    "log": {
+        "path": "logs/lloe_phase2/increasing_noise"
+    },
+    "mu": null,
+    "n_test_triplets": 10000,
+    "nb_epochs": 500,
+    "noise_model": "bernoulli",
+    "optimizer": "adam",
+    "optimizer_params": {
+        "num_landmarks": 0.05,
+        "phase1_learning_rate": 1,
+        "phase2_learning_rate": 0.5,
+        "subset_size": 50,
+        "target_loss": 0.1
+    },
+    "regularizer": null,
+    "tradeoff_set": {
+        "batch_size": [
+            1000000
+        ],
+        "input_dimension": [
+            -1
+        ],
+        "learning_rate": [
+            1
+        ],
+        "noise_level": [
+            0.001,
+            0.01,
+            0.1,
+            0.2,
+            0.3,
+            0.4,
+            0.5
+        ],
+        "number_of_points": [
+            -1
+        ],
+        "output_dimension": [
+            2
+        ],
+        "triplets_multiplier": [
+            2
+        ]
+    }
+}

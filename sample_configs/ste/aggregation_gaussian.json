@@ -1,0 +1,50 @@
+{
+    "algorithm": "ste",
+    "dataset_selected": "aggregation",
+    "error_change_threshold": -1,
+    "gpu_id": 0,
+    "log": {
+        "path": "logs/ste/increasing_noise"
+    },
+    "mu": null,
+    "n_test_triplets": 10000,
+    "nb_epochs": 500,
+    "noise_model": "gaussian",
+    "optimizer": "adam",
+    "optimizer_params": {
+        "num_landmarks": null,
+        "phase1_learning_rate": null,
+        "phase2_learning_rate": null,
+        "subset_size": null,
+        "target_loss": null
+    },
+    "regularizer": null,
+    "tradeoff_set": {
+        "batch_size": [
+            1000000
+        ],
+        "input_dimension": [
+            -1
+        ],
+        "learning_rate": [
+            1
+        ],
+        "noise_level": [
+            1e-05,
+            0.0001,
+            0.001,
+            0.01,
+            0.1,
+            1
+        ],
+        "number_of_points": [
+            -1
+        ],
+        "output_dimension": [
+            2
+        ],
+        "triplets_multiplier": [
+            2
+        ]
+    }
+}

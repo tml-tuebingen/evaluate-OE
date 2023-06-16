@@ -1,0 +1,27 @@
+{
+  "dataset_selected": "kmnist",
+  "algorithm": "lloe",
+  "error_change_threshold": -1,
+  "optimizer": "adam",
+  "nb_epochs": 1000,
+  "n_test_triplets": 10000,
+  "gpu_id": 0,
+  "log": {
+    "path":"logs/lloe/increasing_d"
+  },
+  "optimizer_params": {
+    "phase1_learning_rate": 1,
+    "phase2_learning_rate": 0.5 ,
+    "num_landmarks": 0.05,
+    "subset_size": 50,
+    "target_loss": 0.1
+  },
+  "tradeoff_set": {
+    "number_of_points": [10000],
+    "input_dimension": [-1],
+    "output_dimension": [5, 15, 25, 35, 50],
+    "batch_size": [1000000],
+    "learning_rate": [1],
+    "triplets_multiplier": [2]
+  }
+}

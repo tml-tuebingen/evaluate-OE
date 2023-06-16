@@ -1,0 +1,21 @@
+{
+  "dataset_selected": "kmnist",
+  "algorithm": "ckl_x",
+  "error_change_threshold": -1,
+  "optimizer": "adam",
+  "nb_epochs": 500,
+  "n_test_triplets": 10000,
+  "mu": 0.01,
+  "gpu_id": 0,
+  "log": {
+    "path":"logs/ckl_x/increasing_d"
+  },
+  "tradeoff_set": {
+    "number_of_points": [10000],
+    "input_dimension": [-1],
+    "output_dimension": [5, 15, 25, 35, 50],
+    "batch_size": [1000000],
+    "learning_rate": [1],
+    "triplets_multiplier": [2]
+  }
+}

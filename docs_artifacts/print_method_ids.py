@@ -1,0 +1,11 @@
+
+print('Method - reference_id')
+print('Soft Ordinal Embedding -  soe')
+print('t-Stochastic Triplet Embedding  -  tste')
+print('Stochastic Triplet Embedding  -  ste')
+print('Generalized Non-metric Multi-Dimensional Scaling  -  gnmds')
+print('Crowd Kernel Learning  -  ckl')
+print('Crowd Kernel Learning over X  -  ckl_x')
+print('Landmark Ordinal Embedding  -  loe')
+print('Large-Scale Landmark Ordinal Embedding  -  lloe')
+print('Landmark Ordinal Embedding  -  oenn')

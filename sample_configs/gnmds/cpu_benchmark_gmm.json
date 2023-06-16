@@ -1,0 +1,21 @@
+{
+  "dataset_selected": "gmm",
+  "algorithm": "gnmds",
+  "error_change_threshold": 0.005,
+  "optimizer": "adam",
+  "nb_epochs": 500,
+  "regularizer": 0.0,
+  "n_test_triplets": 10000,
+  "gpu_id": 0,
+  "log": {
+    "path":"logs/gnmds/cpu_benchmark"
+  },
+  "tradeoff_set": {
+    "number_of_points": [128, 256, 512, 1024, 2048, 4096],
+    "input_dimension": [2],
+    "output_dimension": [2],
+    "batch_size": [1000000],
+    "learning_rate": [10],
+    "triplets_multiplier": [2]
+  }
+}

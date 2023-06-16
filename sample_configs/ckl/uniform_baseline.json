@@ -1,0 +1,29 @@
+{
+  "dataset_selected": "uniform",
+  "error_change_threshold": 0.005,
+  "input_dimension": 2,
+  "number_of_points": 1000,
+  "triplets_multiplier": 2,
+  "nb_epochs": 500,
+  "output_dimension": 2,
+  "optimizer": "adam",
+  "regularizer": 0.0,
+  "mu": 0.1,
+  "batch_size": 1000000,
+  "n_test_triplets": 10000,
+  "gpu_id": -1,
+  "log": {
+    "path":"logs/ckl"
+  },
+  "optimizer_params": {
+    "learning_rate": 1000
+  },
+  "hyper_search": {
+    "activation": false,
+    "output_dimension": [],
+    "learning_rate": [],
+    "triplets_multiplier": [],
+    "regularizer": [],
+    "mu": []
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "dataset_selected": "char",
+  "algorithm": "ste",
+  "error_change_threshold": -2,
+  "optimizer": "adam",
+  "nb_epochs": 2000,
+  "n_test_triplets": 10000,
+  "gpu_id": 0,
+  "log": {
+    "path":"logs/ste/convergence_multiplier_2"
+  },
+  "tradeoff_set": {
+    "number_of_points": [-1],
+    "input_dimension": [-1],
+    "output_dimension": [30],
+    "batch_size": [1000000],
+    "learning_rate": [1],
+    "triplets_multiplier": [2]
+  }
+}

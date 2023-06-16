@@ -1,0 +1,20 @@
+{
+  "dataset_selected": "uniform",
+  "algorithm": "loe",
+  "error_change_threshold": 0.005,
+  "optimizer": "adam",
+  "nb_epochs": 1000,
+  "n_test_triplets": 10000,
+  "gpu_id": 0,
+  "log": {
+    "path":"logs/loe/increasing_n"
+  },
+  "tradeoff_set": {
+    "number_of_points": [1000000, 100000, 10000, 1000, 100],
+    "input_dimension": [2],
+    "output_dimension": [2],
+    "batch_size": [1000000],
+    "learning_rate": [0.0001],
+    "triplets_multiplier": [2]
+  }
+}
