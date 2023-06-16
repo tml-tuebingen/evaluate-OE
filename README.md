@@ -1,4 +1,4 @@
-# Code submission for the paper - "Insights into Ordinal Embedding Algorithms: A Systematic Evaluation."
+# Code for the paper - "Insights into Ordinal Embedding Algorithms: A Systematic Evaluation."
 GPU-supported Python Library of ordinal embedding methods implemented using Pytorch.
 
 ## Methods
