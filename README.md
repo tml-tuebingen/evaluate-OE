@@ -33,7 +33,7 @@ Several datasets are integrated into the library to allow the user to experiment
 ## Test the methods on the '2D' Dataset Aggregation
 To evaluate the methods, we provide sample configuration files for each algorithm. The configuration files contain all the parameters required for the respective method, dataset, and experiment. As an example, we provide configuration files for every method to run once on the dataset "aggregation":
 
-```python scripts/train_UMI.py -config sample_configs/UMI/aggregation_baseline.json```
+```python scripts/train_UniqueMethodIdentifier.py -config sample_configs/UniqueMethodIdentifier/aggregation_baseline.json```
 
 After the execution of the above scripts, you can find a log file and a 2D plot, which is saved for each method in ```logs/UMI/```. The log file ```logs/UMI/*.log``` includes most of the important parameters of the experiment specified in the config file.
 
